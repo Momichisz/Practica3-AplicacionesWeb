@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+/* 
+    atajos emmet:
+    h6em
+    m0em0em0.4em0em
+    m0em
+    p0em
+    w100%
+    h25em
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6em;
+    color: #FFFFFF;
+    background: rgb(159, 45, 235);
+    background: -moz-linear-gradient(90deg, rgba(159, 45, 235, 1) 0%, rgba(118, 51, 163, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(159, 45, 235, 1) 0%, rgba(118, 51, 163, 1) 100%);
+    background: linear-gradient(90deg, rgba(159, 45, 235, 1) 0%, rgba(118, 51, 163, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9f2deb", endColorstr="#7633a3", GradientType=1);
+}
+
+header h1 {
+    margin: 0em 0em 0.2em 0em;
+}
+
+#subtitle{
+    letter-spacing: 0.1em;
+}
+
+/************************************************************/
+
+.main {
+    width: 100%;
+    height: 100em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em 0 0 0;
+}
+
+.resaltado{
+    color: #9f2deb;
+}
+
+img {
+    width: 15.15em;
+    border-radius: 0.4em;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+img:hover{
+    scale: 1.01;
+    box-shadow: 0 2px 25px 0  rgba(159, 45, 235, 0.9);
+    transition: 0.3s;
+}
+
+
+/************************************************************/
+
+.target-data {
+    width: 60em;
+    height: 22em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.2em 2em;
+    color: #373737;
+    background-color: #f6f6f6;
+    border-radius: 1em;
+    margin: 0.7em 0em 0em 0em;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+    margin: 0em 0em 0em 0.4em;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3em;
+    color: #FFFFFF;
+    padding: 0em 0em 0em 1em;
+    margin: 0em 0em 0.4em 0em;
+    border-radius: 0.5em;
+    background: rgb(152, 38, 228);
+    background: -moz-linear-gradient(90deg, rgba(152, 38, 228, 1) 0%, rgba(178, 106, 224, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(152, 38, 228, 1) 0%, rgba(178, 106, 224, 1) 100%);
+    background: linear-gradient(90deg, rgba(152, 38, 228, 1) 0%, rgba(178, 106, 224, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9826e4", endColorstr="#b26ae0", GradientType=1);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.data {
+    width: 100%;
+    height: 12em;
+    padding: 1em 0em 0em 1em;
+    border-radius: 0.5em;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+/************************************************************/
+
+.target-xp{
+    width: 60em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    padding: 1.4em 1.8em;
+    margin: 0.7em 0em 0em 0em;
+    color: #373737;
+    background-color: #f6f6f6;
+    border-radius: 1em;
+}
+
+.xp-sub-target{
+    width: 100%;
+    height: 19em;
+    padding: 1em 1em;
+    border-radius: 0.5em;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.xp-sub-target p{
+    margin: 0em 0em 0.4em 0em;
+
+}
+
+#xp-desc{
+    margin-bottom: 1.2em;
+}
+
+/************************************************************/
+
+.target-edu{
+    width: 60em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em 1.5em;
+    margin: 0.7em 0em 0em 0em;
+    color: #373737;
+    background-color: #f6f6f6;
+    border-radius: 1em;
+}
+
+.edu-subtarget{
+    width: 100%;
+    height: 19em;
+    padding: 1em 1em;
+    border-radius: 0.5em;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.edu-subtarget p{
+    margin: 0em 0em 0.4em 0em;
+}
+
+/************************************************************/
+
+.aptitudes{
+    width: 60em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.7em 0em 0em 0em;
+    color: #9f2deb;
+    border-radius: 0.6em;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+}
