@@ -13,7 +13,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 600;
     box-sizing: border-box;
@@ -86,7 +86,7 @@ h1{
     justify-content: center;
     padding: 3.2em 2em;
     color: #373737;
-    background-color: #f6f6f6;
+    background-color: #F2F2F2;
     border-radius: 1em;
     margin: 0.7em 0em 0em 0em;
 }
@@ -135,7 +135,7 @@ h1{
     padding: 1.4em 1.8em;
     margin: 0.7em 0em 0em 0em;
     color: #373737;
-    background-color: #f6f6f6;
+    background-color: #F2F2F2;
     border-radius: 1em;
 }
 
@@ -167,7 +167,7 @@ h1{
     padding: 1.2em 1.5em;
     margin: 0.7em 0em 0em 0em;
     color: #373737;
-    background-color: #f6f6f6;
+    background-color: #F2F2F2;
     border-radius: 1em;
 }
 
@@ -213,7 +213,7 @@ h1{
     justify-content: center;
     margin: 0.7em 0em 0em 0em;
     border-radius: 1em;
-    background-color: #f6f6f6;
+    background-color: #F2F2F2;
 }
 
 .lan-subtarget{
@@ -260,7 +260,7 @@ h1{
     padding: 1.2em 1.5em;
     margin: 0.7em 0em 0em 0em;
     color: #373737;
-    background-color: #f6f6f6;
+    background-color: #F2F2F2;
     border-radius: 1em;
 }
 
