@@ -34,12 +34,12 @@ header {
 
 }
 
-#logotype{
+#logotype {
     width: 1.8em;
     margin: 0em 0.8em 0em 0em;
 }
 
-#logo{
+#logo {
     font-size: 25px;
     letter-spacing: 0.082em;
 }
@@ -72,28 +72,28 @@ header {
     transition: 0.3s;
 }
 
-a{
+a {
     text-decoration: none;
     color: #f79029;
 }
 
-a:hover{
+a:hover {
     color: #f7c100;
     transition: 0.3s;
 }
 
 /************************************************************/
-#mapa{
+#mapa {
     width: 20em;
     height: 25em;
     border-radius: 0.5em;
 }
 
-.coord{
+.coord {
     width: 25em;
     height: 28em;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin-right: 3em;
     background-color: #fbfaf9;
@@ -102,40 +102,42 @@ a:hover{
 
 /************************************************************/
 
-.form{
+.form {
     width: 30em;
     height: 28em;
     padding: 1.2em 0em 0em 0em;
     color: #373737;
 }
 
-#maps-url{
+#maps-url {
     font-size: 0.94em;
 }
 
-#tit{
+#tit {
     margin: 0.3em 0em 0.7em 0em;
 }
 
-.form p{
+.form p {
     font-weight: 500;
+    opacity: 0.8;
 }
 
-#main-form{
+#main-form {
     margin: 1.5em 0em 0em 0em;
     display: flex;
     flex-direction: column;
+    color: #373737;
 }
 
-#main-form h2{
+#main-form h2 {
     font-size: 0.9em;
 }
 
-.form-group{
+.form-group {
     margin-top: 1em;
 }
 
-label{
+label {
     padding: 0em 0.6em;
     font-size: 0.85em;
     font-weight: 400;
@@ -143,7 +145,7 @@ label{
     background-color: #FFFFFF;
 }
 
-input{
+input {
     width: 80%;
     height: 3rem;
     border: #f79029 solid 0.1rem;
@@ -151,36 +153,54 @@ input{
     font-weight: 500;
     padding: 0em 0em 0em 1rem;
     font-size: 0.8em;
+    color: #373737;
 }
 
-input::placeholder{
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0.5em 0 rgba(255, 160, 65, 0.8);
+    transition: 0.3s;
+}
+
+input::placeholder {
     opacity: 0.5;
 }
 
-#lbl-name{
+#lbl-name {
     position: relative;
     bottom: 1.7em;
     left: 7em;
 }
 
-#name-field{
+#name-field {
     position: relative;
     right: 4.7em;
 }
 
-#lbl-lastname{
+#lbl-lastname {
     position: relative;
     bottom: 1.7em;
     left: 7em;
 }
 
-#lastname-field{
+#lastname-field {
     position: relative;
     right: 4.7em;
 }
 
-#btn-send{
-    padding: 0.4em 0.8em;
+#lbl-email {
+    position: relative;
+    bottom: 1.7em;
+    left: 6em;
+}
+
+#email-field {
+    position: relative;
+    right: 3.68em;
+}
+
+#btn-send {
+    padding: 0.5em 1em;
     color: #ff8000;
     background-color: #ffdbb7;
     border: none;
@@ -188,16 +208,180 @@ input::placeholder{
     cursor: pointer;
 }
 
-#btn-send:hover{
+#btn-send:hover {
     scale: 1.01;
     transition: 0.3s;
     background-color: #ffab57;
     color: #FFFFFF;
 }
 
-#btn{
+#btn {
     width: 80%;
     display: flex;
     justify-content: right;
     margin: 0.8em 0em;
+}
+
+@media (max-width: 480px) {
+
+    header {
+        height: 3.5em;
+        padding: 0em 0em 0em 1em;
+    }
+
+
+    /************************************************************/
+
+    .main {
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;
+        padding: 1em 0 0 0;
+    }
+
+    #mapa {
+        width: 18em;
+        height: 13em;
+        border-radius: 0.5em;
+    }
+
+    .coord {
+        width: 20em;
+        height: 15em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fbfaf9;
+        margin: 0em;
+        border-radius: 1.2em;
+    }
+
+    /************************************************************/
+
+    .form {
+        width: 20em;
+        height: 28em;
+        padding: 1.2em 0em 0em 0em;
+        color: #373737;
+        margin-bottom: 1em;
+    }
+
+    #maps-url {
+        font-size: 0.8em;
+    }
+
+    #tit {
+        font-size: 1.5em;
+        margin: 0.3rem 0rem 0.7rem 0rem;
+    }
+
+    .form p {
+        font-weight: 500;
+        opacity: 0.8;
+    }
+
+    #main-form {
+        margin: 1.5em 0em 0em 0em;
+        display: flex;
+        flex-direction: column;
+        color: #373737;
+    }
+
+    #main-form h2 {
+        font-size: 0.9em;
+    }
+
+    .form-group {
+        margin-top: 1em;
+    }
+
+    label {
+        padding: 0em 0.6em;
+        font-size: 0.85em;
+        font-weight: 400;
+        color: #f79029;
+        background-color: #FFFFFF;
+    }
+
+    input {
+        width: 80%;
+        height: 3rem;
+        border: #f79029 solid 0.1rem;
+        border-radius: 0.3rem;
+        font-weight: 500;
+        padding: 0em 0em 0em 1rem;
+        font-size: 0.8em;
+        color: #373737;
+    }
+
+    input:focus {
+        outline: none;
+        box-shadow: 0 0 0.5em 0 rgba(255, 160, 65, 0.8);
+        transition: 0.3s;
+    }
+
+    input::placeholder {
+        opacity: 0.5;
+    }
+
+    #lbl-name {
+        position: relative;
+        bottom: 1.7em;
+        left: 7em;
+    }
+
+    #name-field {
+        position: relative;
+        right: 4.7em;
+    }
+
+    #lbl-lastname {
+        position: relative;
+        bottom: 1.7em;
+        left: 7em;
+    }
+
+    #lastname-field {
+        position: relative;
+        right: 4.7em;
+    }
+
+    #lbl-email {
+        position: relative;
+        bottom: 1.7em;
+        left: 6em;
+    }
+
+    #email-field {
+        position: relative;
+        right: 3.68em;
+    }
+
+    #btn-send {
+        padding: 0.5em 1em;
+        color: #ff8000;
+        background-color: #ffdbb7;
+        border: none;
+        border-radius: 0.3em;
+        cursor: pointer;
+    }
+
+    #btn-send:hover {
+        scale: 1.01;
+        transition: 0.3s;
+        background-color: #ffab57;
+        color: #FFFFFF;
+    }
+
+    #btn {
+        width: 80%;
+        display: flex;
+        justify-content: right;
+        margin: 0.8em 0em;
+    }
+
+
 }
