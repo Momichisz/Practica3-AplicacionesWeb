@@ -96,7 +96,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-right: 3em;
-    background-color: #fbfaf9;
+    background-color: #fffaf5;
     border-radius: 1.2em;
 }
 
@@ -287,7 +287,9 @@ input::placeholder {
         margin: 1.5em 0em 0em 0em;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         color: #373737;
+        background-color: #9f2deb;
     }
 
     #main-form h2 {
@@ -307,7 +309,7 @@ input::placeholder {
     }
 
     input {
-        width: 80%;
+        width: 90%;
         height: 3rem;
         border: #f79029 solid 0.1rem;
         border-radius: 0.3rem;
@@ -330,12 +332,12 @@ input::placeholder {
     #lbl-name {
         position: relative;
         bottom: 1.7em;
-        left: 7em;
+        left: 4em;
     }
 
     #name-field {
         position: relative;
-        right: 4.7em;
+        right: 0em;
     }
 
     #lbl-lastname {
@@ -346,7 +348,7 @@ input::placeholder {
 
     #lastname-field {
         position: relative;
-        right: 4.7em;
+        right: 0em;
     }
 
     #lbl-email {
@@ -357,7 +359,7 @@ input::placeholder {
 
     #email-field {
         position: relative;
-        right: 3.68em;
+        right: 3.55em;
     }
 
     #btn-send {
